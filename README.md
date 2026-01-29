@@ -8,13 +8,13 @@ A structured framework for capturing an individual's unique writing voice, thoug
 
 Based on the methodology and core prompt described by **Ruben Hassid** in the article ["I am just a text file"](https://ruben.substack.com/p/i-am-just-a-text-file).
 
-## ✨ Core Philosophy
+## Core Philosophy
 
 This project is built on a simple but powerful premise: your unique "voice"—the patterns, preferences, and boundaries that define how you think and write—can be systematically captured. The goal is not to create a rigid checklist, but to provide an AI with the **context of your taste**, moving it from generating generic outputs to producing content that genuinely resonates with your style.
 
 As Ruben describes, *"Taste isn't what you like, but what you reject."* This framework is designed to help you articulate those rejections with precision.
 
-## 🚀 How It Works
+##  How It Works
 
 The process is an adaptive interview between you and a capable Large Language Model (LLM).
 
@@ -23,7 +23,7 @@ The process is an adaptive interview between you and a capable Large Language Mo
 3.  **Profile Generation**: After the 100th answer, the AI compiles all your responses into a comprehensive, well-structured Markdown (`.md`) document—your **Voice Profile**.
 4.  **Portable Usage**: This `.md` file becomes a portable context file. You can upload it to any AI chat session (Claude, ChatGPT, etc.) and instruct the model to "read this first." The AI will then generate text that aligns with the captured voice.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 voice-capture-framework/
@@ -45,7 +45,7 @@ voice-capture-framework/
 └── README.md                      # This file
 ```
 
-## 🛠️ Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 *   Access to an LLM with a large context window and good instruction-following capabilities (e.g., **Claude 3.5 Sonnet/Opus** via [claude.ai](https://claude.ai) is highly recommended, as used in the original article).
@@ -59,7 +59,7 @@ voice-capture-framework/
 5.  **Compile Your Profile**: After the 100th answer, the AI will generate your Voice Profile in Markdown format. Save this as `[your_name]_voice_profile.md`.
 6.  **Use Your Voice**: To use it, upload this file at the start of a new AI chat and give an instruction like: "Please read my voice profile first, then help me draft a blog post about..."
 
-## 🧠 Best Practices & Tips
+## Best Practices & Tips
 
 *   **Embrace Specificity**: Vague answers lead to a generic profile. If you say "I like clear writing," be prepared for the AI to ask, "*Clear how? Give me an example of clear vs. unclear from your work.*"
 *   **Think in Boundaries**: Focus as much on what you **never** do (e.g., "I never start emails with 'I hope this email finds you well'") as on what you prefer.
@@ -67,18 +67,18 @@ voice-capture-framework/
 *   **Spirit Over Letter**: When using the profile, instruct the AI to capture the *spirit* of your voice, not to follow every rule slavishly. Natural variation is human.
 *   **Start Small**: For your first test, try creating a profile just for a specific context (e.g., "Professional Email Voice" or "Technical Blogging Voice").
 
-## ⚠️ Important Considerations
+## Important Considerations
 
 *   **Time Investment**: This is a deep, reflective exercise. Allocate sufficient time and mental energy.
 *   **The "Uncanny Valley"**: Output may sometimes feel like a slightly "off" imitation. Use your profile as a first draft generator, not a final-word producer.
 *   **Authenticity**: Relying solely on an AI clone risks diluting your genuine creative voice. Use this as a tool for augmentation, not replacement.
 *   **Ethical Use**: This framework is intended for capturing **your own** voice. Using it to imitate others without their explicit consent is strongly discouraged.
 
-## 📄 Example Output
+## Example Output
 
 Check the `examples/` directory to see what a generated Voice Profile looks like. `sample_voice_profile.md` shows a generic example, while `ruben_hassid_profile.md` distills key voice elements from the original article's author.
 
-## 🔮 Future Ideas & Contributing
+## Future Ideas & Contributing
 
 This is a starting point. Potential future expansions include:
 *   Adapters for different LLMs (GPT, Gemini, etc.).
@@ -88,7 +88,7 @@ This is a starting point. Potential future expansions include:
 
 Contributions, ideas, and discussions are welcome! Please open an Issue or Pull Request.
 
-## 🙏 Credits & Attribution
+## Credits & Attribution
 
 The core concept, methodology, and original prompt structure are the work of **Ruben Hassid**. This repository is a curated implementation and extension of the ideas presented in his seminal article:
 *   **Article**: ["I am just a text file"](https://ruben.substack.com/p/i-am-just-a-text-file)
